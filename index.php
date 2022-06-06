@@ -9,7 +9,7 @@
   4. Stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre asterischi (***) tutte le occorrenze della parola da censurare.
 */
 
-$frase = 'Quando è troppo è troppo! Ne ho abbastanza di questi fottuti serpenti su questo fottuto aereo!';
+$frase = 'Quando è troppo è troppo! Ne ho abbastanza di questi serpenti su questo fottuto aereo!';
 $lunghezza_frase = strlen($frase);
 
 // PUNTO 3
@@ -27,8 +27,6 @@ $lunghezza_frase_censurata = strlen($frase_censurata);
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PHP - Bad Words</title>
-
-    
 </head>
 <body>
 
